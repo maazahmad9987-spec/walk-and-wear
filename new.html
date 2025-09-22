@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Men's Shoes</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      background-color: #f4f4f4;
+    }
+
+
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: #000;
+  color: #fff;
+}
+
+.logo a {
+    color: white;
+  font-size: 25px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+
+.icons a {
+  color: #fff;
+  margin-left: 15px;
+  font-size: 18px;
+}
+    
+
+ /* header {
+      background-color: #222;
+      color: white;
+      padding: 20px 40px;
+      text-align: center;
+    } */
+
+    h1 {
+      margin: 0;
+    }
+
+    .container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 40px;
+    }
+
+    .shoe-card {
+      background-color: white;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      transition: transform 0.2s;
+    }
+
+    .shoe-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .shoe-card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .shoe-info {
+      padding: 20px;
+    }
+
+    .shoe-info h2 {
+      font-size: 18px;
+      margin: 0 0 10px;
+    }
+
+    .shoe-info p {
+      margin: 0;
+      color: #888;
+    }
+
+    .price {
+      color: #000;
+      font-weight: bold;
+      margin-top: 10px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #222;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+       <header class="navbar">
+    <div class="logo">
+        <a href="index.html">WALK AND WEAR</a>
+    </div>
+    <nav>
+      <ul class="nav-links">
+        <!-- <li><a href="#">Home</a></li> -->
+        <li><a href="man.html">Man</a></li>
+        <li><a href="women.html">Women</a></li>
+        <li><a href="kid.html">Kids</a></li>
+        <li><a href="jordan.html">Jordan</a></li>
+        <li><a href="sport.html">Sports</a></li>
+      </ul>
+    </nav>
+    <!-- <div class="icons">
+      <a href="#">🔍</a>
+      <a href="#">🛒</a>
+    </div> -->
+  </header>
+
+<!-- <header>
+  <h1>Men's Shoes Collection</h1>
+</header> -->
+
+<main class="container">
+  <div class="shoe-card">
+    <img src="https://via.placeholder.com/300x200?text=Sneaker+1" alt="Sneaker 1">
+    <div class="shoe-info">
+      <h2>Sporty Sneaker</h2>
+      <p>Breathable, lightweight & perfect for running.</p>
+      <p class="price">$89.99</p>
+    </div>
+  </div>
+
+  <div class="shoe-card">
+    <img src="https://via.placeholder.com/300x200?text=Boots+2" alt="Boots 2">
+    <div class="shoe-info">
+      <h2>Classic Leather Boots</h2>
+      <p>Durable, rugged boots for all weather.</p>
+      <p class="price">$129.99</p>
+    </div>
+  </div>
+
+  <div class="shoe-card">
+    <img src="https://via.placeholder.com/300x200?text=Loafers+3" alt="Loafers 3">
+    <div class="shoe-info">
+      <h2>Formal Loafers</h2>
+      <p>Perfect for office or formal events.</p>
+      <p class="price">$99.99</p>
+    </div>
+  </div>
+
+  <div class="shoe-card">
+    <img src="https://via.placeholder.com/300x200?text=Sneaker+4" alt="Sneaker 4">
+    <div class="shoe-info">
+      <h2>Casual Street Sneaker</h2>
+      <p>Stylish and comfortable for daily wear.</p>
+      <p class="price">$79.99</p>
+    </div>
+  </div>
+</main>
+
+<footer>
+  &copy; 2025 Men's Shoe Store. All rights reserved.
+</footer>
+
+</body>
+</html>
